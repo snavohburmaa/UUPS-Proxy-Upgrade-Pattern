@@ -43,7 +43,7 @@ forge build
 
 ### Deploy
 
-Deploy the initial BoxV1 implementation with a proxy:
+Deploy the initial BoxV1 implementation with a proxy
 
 ```bash
 forge script script/DeployBox.s.sol:DeployBox --rpc-url <YOUR_RPC_URL> --private-key <YOUR_PRIVATE_KEY> --broadcast
