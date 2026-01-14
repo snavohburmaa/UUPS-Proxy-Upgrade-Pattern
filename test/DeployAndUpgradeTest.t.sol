@@ -23,7 +23,7 @@ contract DeployAndUpgradeTest is Test {
 
     function testUpgrades() public {
         BoxV2 box2 = new BoxV2();
-        // Call upgrade directly as the owner (this contract)
+        // Call upgrade directly as the owner => this contract
         BoxV1(proxy).upgradeToAndCall(address(box2), "");
 
         uint256 expectedValue = 2;
